@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head Section -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Internal and External links -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Body Section -->
+
+<body onload="animateWrite()">
+    <!-- Weelcome Section -->
+    <div id="welcome">
+        <div id="in">
+            <header>
+                <div id="name">Alimi's portfolio</div>
+                <!-- Navigation Bar -->
+                <nav>
+                    <ul class="navList">
+                        <li class="home"><a href="#welcome">Home</a> </li>
+                        <li class="about"><a href="#about"> About</a> </li>
+                        <li class="services"><a href="#services">Services</a></li>
+                        <li class="work"> <a href="#Work">Work</a></li>
+                        <li class="contact"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- Navigation Bar Ends Here -->
+            </header>
+        </div>
+        <!-- Main Section -->
+        <div id="main">
+            <div id="container">
+                <div id="intro">
+                    <div id="content">
+                        <div id="dei">
+                            <marquee behavior="scroll" scrollamount="5" direction="left" width="100%">
+                                <h2>I am Alimi Habeeb Oladimeji.</h2>
+                            </marquee>
+                            <marquee behavior="alternate" direction="right" width="50%" scrollamount="3">A Frontend developer.
+                            </marquee>
+                            <marquee behavior="slide" direction="left" width="70%"> Reach me here where designs meets esxpectations...
+                            </marquee>
+                        </div>
+                        <div id="more">
+                            <button>View more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Section Ends Here -->
+    </div>
+    <!-- Welcome Section Ends -->
+    <!-- About Section Begins -->
+    <div id="about">
+        <div id="content">
+            <div id="skills">
+                <div id="skill__proof">
+                    <h2>My Skills</h2>
+                    <div id="temp"></div>
+                </div>
+                <div id="download">
+                    <button>
+                        <a href="./Alimi Habeeb Resume.pdf" download=""> <b>Download Resume</b></a>
+                    </button>
+                </div>
+            </div>
+            <div id="about__me">
+                <div id="aside">
+                    <h1>About Me</h1>
+                    <p>
+                        Looking for a suitable position with a Company or an Organisation where my skills and knowledge can be effectively applied to work productively and accurately in conjunction with congruity goals and objectives.</p>
+                    <p>The languages I work with are HTML, CSS, JAVASCRIPT, SASS, JQUERY.</p>
+                    <p> I also carry out duties with efficiency and accuracy in enabling the Company or Organisation to grow and develop with a team spirit, aimed at satisfying the public upon whom our success depends.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About section Ends -->
+    <!-- Authhor Contact Section -->
+    <div id="contact">
+        <div id="content">
+            <div id="contactIn">
+                <div id="form">
+                    <h1>Get in touchs</h1>
+                    <!-- Users Description Form -->
+                    <form action="#" method="POST" id="form" class="form">
+                        <input type="text" placeholder="Name" id="sender__name" value=""><br>
+                        <input type="email" placeholder="E-mail " id="sender__email" value="" name="email"><br>
+                        <textarea placeholder="Description" name="" id="desc" cols="45" rows="10"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <!-- Users Description Form Ends -->
+                </div>
+            </div>
+            <div id="contactOut">
+                <!-- Socila Handles Section -->
+                <div id="aside">
+                    <h1>Reach me on social media:</h1>
+                    <p>to discuss business.</p>
+                    <p>to help make the best bbusiness differences.</p>
+                    <div id="social"></div>
+                </div>
+                <!-- Socila Handles Section Ends Here -->
+            </div>
+        </div>
+    </div>
+    <!-- Author Contact Section Ends -->
+    <!-- javaScript -->
+    <script>
+        // var i = 0;
+        // var txt = 'I am Alimi Habeeb Oladimeji A Frontend Designer Check me here where designs meet expectations.';
+        // var speed = 70;
+
+        // function animateWrite() {
+        //     if (i < txt.length) {
+        //         document.getElementById("dei").innerHTML += txt.charAt(i);
+        //         i++;
+        //         setTimeout(animateWrite, speed);
+        //     }
+        // }
+    </script>
+</body>
+
+</html>
